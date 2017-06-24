@@ -8,7 +8,7 @@ $options = array(
         'content' => '{
                     "from": "'.$_POST['email'].'",
                     "to": "matt.huntington@gmail.com",
-                    "subject": "New emissary-talent.com message from '.$_POST['name'].'",
+                    "subject": "New '.$_SERVER['HTTP_HOST'].' message from '.$_POST['name'].'",
                     "html": "'.$_POST['message'].'"
             }'
     )
