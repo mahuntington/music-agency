@@ -2797,12 +2797,12 @@
 /* Header */
 
 	#header {
-		height: 60vw;
+		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-image: url("../../images/trumpet.jpg");
 		background-size:cover;
-		background-position:0px -10px;
+		background-position:0px -100px;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3111,7 +3111,7 @@
 		/* Header */
 
 			#header {
-
+				padding: 6em 0 17em 0 ;
 			}
 
 	}
@@ -3154,6 +3154,10 @@
 
 		/* Header */
 
+			#header {
+				padding: 5em 0 5em 0 ;
+				background-attachment: scroll;
+			}
 
 				#header br {
 					display: inline;
@@ -3193,7 +3197,7 @@
 		/* Header */
 
 			#header {
-
+				padding: 8em 3em 8em 3em ;
 			}
 
 		/* Footer */
@@ -3284,7 +3288,7 @@
 		/* Header */
 
 			#header {
-
+				padding: 4em 3em 4em 3em ;
 			}
 
 				#header .actions {
@@ -3355,7 +3359,7 @@
 		/* Header */
 
 			#header {
-
+				padding: 4em 2em 4em 2em ;
 			}
 
 				#header br {
@@ -3404,7 +3408,7 @@
 		/* Header */
 
 			#header {
-
+				padding: 3em 1em 3em 1em ;
 			}
 
 		/* Footer */
