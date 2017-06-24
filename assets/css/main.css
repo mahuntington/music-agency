@@ -2797,6 +2797,7 @@
 /* Header */
 
 	#header {
+		padding-top:5em;
 		height: 60vw;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
@@ -3284,7 +3285,7 @@
 		/* Header */
 
 			#header {
-
+ 				background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) url("../../images/trumpet.jpg") ;
 			}
 
 				#header .actions {
