@@ -115,9 +115,9 @@
 				}).then((data)=>{
 					console.log(JSON.parse(data));
 					if(JSON.parse(data).status == 200){
-						console.log('yay');
+						$('#submit').parent().text('Your message has been sent!  Please wait to hear back from us.');
 					} else {
-						console.log('boo');
+						$('#submit').val('Some thing went wrong.  Try again').addClass('special');
 					}
 				});
 			})
