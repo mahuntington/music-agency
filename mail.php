@@ -6,10 +6,10 @@ $options = array(
         'header'  => "Content-type: application/json\r\n",
         'method'  => 'POST',
         'content' => '{
-                    "from": "matt.huntington@gmail.com",
+                    "from": "'.$_POST['email'].'",
                     "to": "matt.huntington@gmail.com",
-                    "subject": "ajax!",
-                    "html": "please please please please please please"
+                    "subject": "New emissary-talent.com message from '.$_POST['name'].'",
+                    "html": "'.$_POST['message'].'"
             }'
     )
 );
