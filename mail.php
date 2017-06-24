@@ -8,7 +8,7 @@ $options = array(
         'content' => '{
                     "from": "matt.huntington@gmail.com",
                     "to": "matt.huntington@gmail.com",
-                    "subject": "no var dump",
+                    "subject": "ajax!",
                     "html": "please please please please please please"
             }'
     )
