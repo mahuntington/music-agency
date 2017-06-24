@@ -113,7 +113,12 @@
 						message: $('#message').val(),
 					}
 				}).then((data)=>{
-					console.log(data);
+					console.log(JSON.parse(data));
+					if(JSON.parse(data).status == 200){
+						console.log('yay');
+					} else {
+						console.log('boo');
+					}
 				});
 			})
 		});
