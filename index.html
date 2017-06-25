@@ -104,6 +104,7 @@
 		$(()=>{
 			$('form').submit((event)=>{
 				event.preventDefault();
+				$('#submit').val('Sending...');
 				$.ajax({
 					url:'/mail.php',
 					method:'POST',
@@ -117,8 +118,10 @@
 					if(JSON.parse(data).status == 200){
 						$('#submit').parent().text('Your message has been sent!  Please wait to hear back from us.');
 					} else {
-						$('#submit').val('Some thing went wrong.  Try again').addClass('special');
+						$('#submit').val('Something went wrong.  Try again').addClass('special');
 					}
+				},(error)=>{
+					$('#submit').val('Something went wrong.  Try again later').addClass('special');
 				});
 			})
 		});
